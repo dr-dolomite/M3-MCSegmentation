@@ -5,18 +5,18 @@
 
 An early version of our M3 Segmentation Model using U-Net Architecture. This repository contains the code for training and applying the segmentation model to images.
 
-## Description
+### Description
 
 This project implements a segmentation model based on the U-Net architecture using PyTorch. The U-Net model is trained on a dataset to perform image segmentation, specifically for segmenting objects in medical images. The model has been designed to accurately delineate and identify specific structures in the images.
 
-## Features
+### Features
 
 - U-Net architecture for image segmentation
 - Training code with customizable hyperparameters
 - Inference code to apply segmentation to new images
 - Pre-trained checkpoint for quick start
 
-## Pre-installation
+### Pre-installation
 
 Pytorch was not included in the requirements.txt. I recommend to create a conda virtual environment first and install Pytorch based on the generated pip command from its own documentation. 
 
@@ -28,12 +28,12 @@ https://pytorch.org/get-started/locally/
 You can also refer to this. However, it might get deprecated if changes in the documentation will be applied. Use the link documentation instead if these installation commands won't work.
 
 
-### INSTALLION GPU - Only use if you have NVIDIA Graphics Card that supports CUDA.
+### Using GPU - Only use if you have NVIDIA Graphics Card that supports CUDA.
 ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
-### INSTALLATION CPU
+### Using CPU
 ```
 pip3 install torch torchvision torchaudio
 
