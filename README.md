@@ -27,22 +27,33 @@ https://pytorch.org/get-started/locally/
 
 You can also refer to this. However, it might get deprecated if changes in the documentation will be applied. Use the link documentation instead if these installation commands won't work.
 
+
 ### INSTALLION GPU - Only use if you have NVIDIA Graphics Card that supports CUDA.
 ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
-## INSTALLATION CPU
+### INSTALLATION CPU
 ```
 pip3 install torch torchvision torchaudio
+
 ```
+
+
+### Download Model here:
+```
+https://wvsueduph-my.sharepoint.com/:u:/g/personal/russel_yasol_wvsu_edu_ph/Efgjv6YteO5HuQubdhCAvgoBVUHpLwutoo8M5qN-0GcMBw?e=6Sf9Jd
+```
+
+Copy and paste inside the M3Segmentation folder.
+
 
 ## Installation
 
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/m3-segmentation-model.git
+git clone https://github.com/dr-dolomite/M3Segmentation.git
 ```
 
 2. Change into the project directory:
@@ -62,3 +73,5 @@ pip install -r requirements.txt
 ```
 
 5. Perform train or test.
+
+
