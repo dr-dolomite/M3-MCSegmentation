@@ -16,7 +16,7 @@ An early version of our M3 Segmentation Model using U-Net Architecture. This rep
 <p>Pytorch was not included in the requirements.txt. I recommend to create a conda virtual environment first and install Pytorch based on the generated pip command from its own documentation.</p>
 <h3>Pytorch Documentation</h3>
 <p><a href="https://pytorch.org/get-started/locally/">https://pytorch.org/get-started/locally/</a></p>
-<p>You can also refer to this. However, it might get deprecated if changes in the documentation will be applied. Use the link documentation instead if these installation commands won't work.</p>
+<p>You can also refer to this. However, it might get deprecated if changes in the documentation will be applied. Use the link documentation instead if these installation commands won't work. Only choose one</p>
 <h3>Using GPU - Only use if you have NVIDIA Graphics Card that supports CUDA.</h3>
 <p><code>pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118</code></p>
 <h3>Using CPU</h3>
