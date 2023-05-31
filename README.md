@@ -1,7 +1,7 @@
 # M3 Segmentation Model
 
 <img src="pytorch_logo.jpg" alt="PyTorch Logo" width="600" height="200" style="object-fit: contain;">
-An early version of our M3 Segmentation Model using U-Net Architecture. This repository contains the code for training and applying the segmentation model to images.
+An early version of our M3-MC Segmentation Model using U-Net Architecture. This repository contains the code for training and applying the segmentation model to images.
 
 <h3>Description</h3>
 <p>This project implements a segmentation model based on the U-Net architecture using PyTorch. The U-Net model is trained on a dataset to perform image segmentation, specifically for segmenting objects in medical images. The model has been designed to accurately delineate and identify specific structures in the images.</p>
